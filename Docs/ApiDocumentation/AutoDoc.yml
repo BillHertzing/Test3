@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: AutoDoc
+  commentId: N:AutoDoc
+  id: AutoDoc
+  children:
+  - AutoDoc.Class1
+  langs:
+  - csharp
+  - vb
+  name: AutoDoc
+  nameWithType: AutoDoc
+  fullName: AutoDoc
+  type: Namespace
+  assemblies:
+  - AutoDoc
+references:
+- uid: AutoDoc.Class1
+  commentId: T:AutoDoc.Class1
+  name: Class1
+  nameWithType: Class1
+  fullName: AutoDoc.Class1

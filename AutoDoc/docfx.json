@@ -1,0 +1,71 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": ["**.csproj"],
+          "exclude": ["**/obj", "**/bin", "**/Docs"],
+          "src": "../"
+        }
+      ],
+      "dest": "obj/docfx/ApiDocumentation",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "*.md", "toc.yml" ],
+        "exclude": [ "**/obj", "**/bin", "**/wwwroot" ],
+        "src": "../",
+        "dest": "./"
+      },
+      {
+        "files": [ "**/*.md", "**/index.md", "**/toc.yml" ],
+        "exclude": ["**/obj", "**/bin", "**/wwwroot"],
+        "src": "../SolutionDocumentation",
+        "dest": "./SolutionDocumentation/"
+      },
+     { 
+         "files": [ "**/*.md", "**/index.md", "**/toc.yml" ],
+        "src": "obj/docfx/ApiDocumentation",
+        "dest": "./ApiDocumentation/"
+      },
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "svg/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "dest": "../Docs",
+    "template": [
+      "default",
+      "templates/AutoDocTemplate01"
+    ],
+
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "markdownEngineName": "dfm-latest",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

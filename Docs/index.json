@@ -1,0 +1,27 @@
+{
+  "ReadMe.html": {
+    "href": "ReadMe.html",
+    "title": "Solution item ReadMe",
+    "keywords": "Solution item ReadMe"
+  },
+  "SolutionDocumentation/GettingStarted.html": {
+    "href": "SolutionDocumentation/GettingStarted.html",
+    "title": "Getting Started",
+    "keywords": "Getting Started"
+  },
+  "SolutionDocumentation/ReadMe.html": {
+    "href": "SolutionDocumentation/ReadMe.html",
+    "title": "Solution ReadMe",
+    "keywords": "Solution ReadMe"
+  },
+  "SolutionDocumentation/ContributingGuidelines.html": {
+    "href": "SolutionDocumentation/ContributingGuidelines.html",
+    "title": "Contributing Guidelines",
+    "keywords": "Contributing Guidelines"
+  },
+  "Index.html": {
+    "href": "Index.html",
+    "title": "Solution Item Root index.md and index.html",
+    "keywords": "Solution Item Root index.md and index.html You should be redirected to this repository's ReadMe.html page. If it doesn't happen automatically, please click on the link ReadMe.html"
+  }
+}

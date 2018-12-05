@@ -1,0 +1,170 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Dropbox/whertzing/GitHub/Test3/AutoDoc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "../Index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Index.html",
+          "hash": "V6iDMuCnSqK5dwdadGk9/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../ReadMe.md",
+      "output": {
+        ".html": {
+          "relative_path": "ReadMe.html",
+          "hash": "SyspPnyes6MQwDIWnhNK+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../SolutionDocumentation/ContributingGuidelines.md",
+      "output": {
+        ".html": {
+          "relative_path": "SolutionDocumentation/ContributingGuidelines.html",
+          "hash": "frIUGf+PUMVaedn2q0oOmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../SolutionDocumentation/GettingStarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "SolutionDocumentation/GettingStarted.html",
+          "hash": "v+/+O9aFGMIvAcWH+CM9aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../SolutionDocumentation/ReadMe.md",
+      "output": {
+        ".html": {
+          "relative_path": "SolutionDocumentation/ReadMe.html",
+          "hash": "jjQLJEQxOaPz7CXJT3KIKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../SolutionDocumentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SolutionDocumentation/toc.html",
+          "hash": "hvvtmpBtX+N/+est8VIQNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "../toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "D/AaX4c7KsPicmiljGhzoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ataplogo1inch.bmp",
+      "output": {
+        "resource": {
+          "relative_path": "images/ataplogo1inch.bmp"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "obj/docfx/ApiDocumentation/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ApiDocumentation/toc.html",
+          "hash": "R5FXE2RQug9I1TCrgUsG1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
