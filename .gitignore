@@ -11,7 +11,7 @@
 # MSBuild Build logging log file
 *.binlog
 # DocFx Documentaion generation log file
-log.txt
+/ATAP.Utilities.AutoDoc/log.txt
 
 # User-specific files
 *.suo
@@ -179,6 +179,8 @@ publish/
 *.azurePubxml
 # Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted
+# BlazorServiceStack Examples Repository will check this in. 
+# All sensitive data should be stored in user secrets file equivalents, not in the .pubxml files
 #*.pubxml
 #*.publishproj
 
