@@ -14,9 +14,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionDocumentation", "So
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FEA9F8A-9C1A-413B-86D0-2CF5BB151A9F}"
 	ProjectSection(SolutionItems) = preProject
+		ConsoleApp\.gitignore = ConsoleApp\.gitignore
+		Directory.Build.props = Directory.Build.props
 		Index.md = Index.md
 		ReadMe.md = ReadMe.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonDTOs", "CommonDTOs\CommonDTOs.csproj", "{6DB62B53-92EC-4C74-B02D-25D768D720C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{6470A082-656A-4F68-80D0-CF3A07908091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +34,14 @@ Global
 		{B72E48E2-CA41-4E6F-BC2C-3C95257F6566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72E48E2-CA41-4E6F-BC2C-3C95257F6566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B72E48E2-CA41-4E6F-BC2C-3C95257F6566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB62B53-92EC-4C74-B02D-25D768D720C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB62B53-92EC-4C74-B02D-25D768D720C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB62B53-92EC-4C74-B02D-25D768D720C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB62B53-92EC-4C74-B02D-25D768D720C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6470A082-656A-4F68-80D0-CF3A07908091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6470A082-656A-4F68-80D0-CF3A07908091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6470A082-656A-4F68-80D0-CF3A07908091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6470A082-656A-4F68-80D0-CF3A07908091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,16 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-## ATAP BuildTooling
-# Where external msbuild .target files and msBuild Task DLLs are stored
-.build/
-# Lock files used when incrementing AssemblyVersions
-*.lock
-# MSBuild Build logging log file
+## Build Logs (local)
 *.binlog
-# DocFx Documentaion generation log file
-log.txt
-
 # User-specific files
 *.suo
 *.user
@@ -179,6 +171,8 @@ publish/
 *.azurePubxml
 # Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted
+# BlazorServiceStack Examples Repository will check this in. 
+# All sensitive data should be stored in user secrets file equivalents, not in the .pubxml files
 #*.pubxml
 #*.publishproj
 
